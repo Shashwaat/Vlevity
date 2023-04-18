@@ -4,7 +4,7 @@ const connectDatabase = require("./config/database")
 //config
 dotenv.config({path:"backend/config/config.env"})
 
-// Connecting to database 
+// Connecting to database of mongodb using databsejs file
 connectDatabase()
 
 
