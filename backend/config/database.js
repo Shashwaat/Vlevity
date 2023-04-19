@@ -1,4 +1,4 @@
-
+//to use mongoose we'll use this line
 const mongoose = require("mongoose");
 
 const connectDatabase = ( ) =>{
