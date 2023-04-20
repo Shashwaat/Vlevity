@@ -4,3 +4,5 @@ const router = express.Router();
 // taking routes from the productcontroller file
 router.route("/products").get(getAllProducts);
 module.exports = router
+
+//routing model
