@@ -1,6 +1,7 @@
 //to use mongoose we'll use this line
 const mongoose = require("mongoose");
 
+//function to connect database 
 const connectDatabase = ( ) =>{
     //use of usercreateindex is deprecated
     mongoose.connect(process.env.DB_URI,{useNewUrlParser:true,useUnifiedTopology:true}).then((data)=>{
