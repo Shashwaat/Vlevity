@@ -1,9 +1,9 @@
 //to use mongoose we'll use this line
 const mongoose = require("mongoose");
 
-//function to connect database 
+//function to connect data
 const connectDatabase = ( ) =>{
-    //use of usercreateindex is deprecated
+    //use of usercreateindex 
     mongoose.connect(process.env.DB_URI,{useNewUrlParser:true,useUnifiedTopology:true}).then((data)=>{
         console.log('Mongodb connected with server: ${data.connection.host}');
         }).catch((err)=>{
