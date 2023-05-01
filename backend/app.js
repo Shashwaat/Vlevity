@@ -1,5 +1,4 @@
-const express = require("express"); // include the file express 
-//express
+const express = require("express"); 
 const app = express();
 //use express
 app.use(express.json())
