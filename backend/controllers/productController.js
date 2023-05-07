@@ -4,3 +4,4 @@ exports.getAllProducts = (req,res)=>{
 }
 
 // product controller
+// controller
