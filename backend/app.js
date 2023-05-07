@@ -5,4 +5,4 @@ const product =  require("./routes/productRoute");
 app.use("/api/v1",product);
 module.exports=app
 
-//express files are loaded are loaded
+//express files are loaded
