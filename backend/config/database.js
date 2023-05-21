@@ -1,4 +1,4 @@
-//to conn
+//to 
 const mongoose = require("mongoose");
 
 const connectDatabase = ( ) =>{
